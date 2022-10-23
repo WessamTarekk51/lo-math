@@ -1,0 +1,12 @@
+
+input{
+  font-size: 10vw;
+  width: 20vw;
+  height: 10vw;
+}
+.true{
+  background-color: green;
+}
+.false{
+  background-color: red;
+}

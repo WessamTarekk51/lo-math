@@ -1,0 +1,8 @@
+<form [formGroup]="inputvaldation">
+  <label>
+     <input  class="wrong" type="text" formControlName="value" index="1" (click)="handClick($event)"  (change)="checkvalue($event)">
+     <input  class="wrong" type="text" formControlName="value" index="2" (click)="handClick($event)"  (change)="checkvalue($event)">
+     <input  class="wrong" type="text" formControlName="value" index="3" (click)="handClick($event)"  (change)="checkvalue($event)">
+    <button (focus)="checkanswer()" >check</button>
+  </label>
+</form>
